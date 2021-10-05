@@ -1,0 +1,134 @@
+
+
+.menu_top {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu_top ul {
+  display: inline-flex;
+  padding: 50px 0;
+}
+
+.menu_top li {
+  text-align: center;
+  padding: 50px;
+  font-size: 26px;
+}
+
+.menu_top li a {
+  color: #555;
+}
+
+.menu_top li a:hover {
+  opacity: 0.5;
+}
+
+.menu_top li small {
+  color: #BDAB92;
+}
+
+#menu_list1,
+#menu_list2,
+#menu_list3 {
+  display: inline-block;
+}
+
+.menu_list {
+  width: 100%;
+}
+
+.menu_list h1 {
+  font-size: 50px;
+  font-weight: normal;
+  color: #555;
+  line-height: 0.8;
+  padding-bottom: 7%;
+}
+
+.menu_list h1 small {
+  font-size: 30px;
+  color: #ff8856;
+}
+
+.menu_list h2 {
+  font-size: 30px;
+  color: #555;
+  font-weight: normal;
+  padding-bottom: 7%;
+}
+
+.menu_list p {
+  width: 80%;
+  font-size: 12px;
+  color: #555;
+  letter-spacing: 3px;
+  line-height: 2.6;
+}
+
+.menu_item1 {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  overflow: hidden;
+}
+
+.menu_item2 {
+  width: 50%;
+  float: right;
+  margin-top: 10%;
+  margin-left: -4%;
+  position: relative;
+  z-index: 2;
+}
+
+.menu_item1_reverse {
+  width: 40%;
+  display: inline-block;
+  position: relative;
+  z-index: 2;
+  float: right;
+  overflow: hidden;
+}
+
+.menu_item2_reverse {
+  width: 50%;
+  display: inline-block;
+  float: left;
+  margin-top: 10%;
+  position: relative;
+  z-index: 2;
+  margin-left: 10%;
+}
+
+
+@media screen and (max-width: 480px) {
+.menu_top li {
+    text-align: center;
+    padding: 32px;
+}
+
+.menu_top li {
+    text-align: center;
+    padding: 22px;
+}
+
+.menu_item2 {
+    width: 100%;
+    margin-top: 10%;
+    margin-left: 7%;
+    position: relative;
+    z-index: 2;
+}
+
+.menu_item1 {
+    width: 100%;
+}
+
+.menu_list p {
+  margin-left: inherit;
+}
+}
