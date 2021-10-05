@@ -44,13 +44,6 @@ header .navbar ul li {
   border-right: solid 3px #BDAB92;
 }
 
-header .navbar ul li:nth-child(1) {
-  border-right: none;
-}
-
-header .navbar ul li:last-child {
-  border-right: none;
-}
 
 header .navbar ul li a {
   color: #fff;
@@ -285,5 +278,4 @@ body.nav-open header .drawer::after {
   top: 9px;
   transform: rotate(45deg);
 }
-
 }

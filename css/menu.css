@@ -124,11 +124,27 @@
     z-index: 2;
 }
 
+.menu_item2 img {
+  width: 100%;
+}
+
 .menu_item1 {
     width: 100%;
 }
 
+.menu_item1 img {
+  width: 100%;
+}
+
 .menu_list p {
   margin-left: inherit;
+}
+
+.menu_list h1 {
+  margin-left: 10px;
+}
+
+.menu_list h2 {
+  margin-left: 10px;
 }
 }
