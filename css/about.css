@@ -83,12 +83,19 @@
 }
 
 @media screen and (max-width: 480px) {
+
+.about {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 .about_inner {
-    width: 24%;
+  margin: 0;
+  width: 70%;
+  margin-left: 5px;
 }
 
 .about_inner h1 {
-  font-size: 15px;
+  font-size: 18px;
 }
-
 }
